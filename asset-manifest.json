@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/syauqi-portofolio/static/css/main.5fb0c0c9.css",
+    "main.js": "/syauqi-portofolio/static/js/main.8b5fd4a6.js",
+    "static/media/about.jpg": "/syauqi-portofolio/static/media/about.7a7f917ab3ddf41f0070.jpg",
+    "static/media/yuqi.jpg": "/syauqi-portofolio/static/media/yuqi.7a7f917ab3ddf41f0070.jpg",
+    "static/media/Syauqi-Cv.pdf": "/syauqi-portofolio/static/media/Syauqi-Cv.778ed8d5770a1cc63482.pdf",
+    "static/media/work2.jpg": "/syauqi-portofolio/static/media/work2.e52a0c2981a6c11ba468.jpg",
+    "static/media/work4.jpg": "/syauqi-portofolio/static/media/work4.aee985961b648f4df1f2.jpg",
+    "static/media/work5.jpg": "/syauqi-portofolio/static/media/work5.094ec4a2224db8908873.jpg",
+    "static/media/work1.jpg": "/syauqi-portofolio/static/media/work1.321b4ae3bf404acdfdc6.jpg",
+    "static/media/work3.jpg": "/syauqi-portofolio/static/media/work3.135e9065694bc13dc31d.jpg",
+    "index.html": "/syauqi-portofolio/index.html",
+    "main.5fb0c0c9.css.map": "/syauqi-portofolio/static/css/main.5fb0c0c9.css.map",
+    "main.8b5fd4a6.js.map": "/syauqi-portofolio/static/js/main.8b5fd4a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5fb0c0c9.css",
+    "static/js/main.8b5fd4a6.js"
+  ]
+}
