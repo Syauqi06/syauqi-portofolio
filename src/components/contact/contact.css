@@ -44,6 +44,8 @@
 .contact__card-data{
     display: block;
     margin-bottom: var(--mb-0-75);
+    color: var(--text-color);
+    text-decoration: none;
 }
 
 .contact__button{

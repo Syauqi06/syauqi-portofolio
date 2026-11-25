@@ -154,10 +154,10 @@
   /* For small devices */
   @media screen and (max-width: 350px) {
     .services__container{
-        grid-template-columns: max-content;      
+        grid-template-columns: 1fr;
     }
 
     .services__content{
-        padding-right: 6rem;
+        padding-right: 1.5rem;
     }
   }

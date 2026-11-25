@@ -58,6 +58,13 @@
     margin-bottom: var(--mb-3);
 }
 
+.home__actions{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem;
+}
+
 .home__image{
     background: url(../../assets/yuqi.jpg);
     background-repeat: no-repeat;
