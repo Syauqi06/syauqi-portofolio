@@ -1,1 +1,334 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/syauqi-portofolio/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/syauqi-portofolio/logo192.png"/><link rel="manifest" href="/syauqi-portofolio/manifest.json"/><link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"><link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"><title>Syauqi Portofolio</title><script defer="defer" src="/syauqi-portofolio/static/js/main.546f53fd.js"></script><link href="/syauqi-portofolio/static/css/main.5fb0c0c9.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./public/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Portfolio of Mu'ammar Syauqi Arrasya, a backend developer working with PHP, JavaScript, Laravel, and CodeIgniter." />
+    <link rel="apple-touch-icon" href="./public/logo192.png" />
+    <link rel="manifest" href="./public/manifest.json" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <link rel="stylesheet" href="./src/index.css" />
+    <link rel="stylesheet" href="./src/App.css" />
+    <link rel="stylesheet" href="./src/components/header.css" />
+    <link rel="stylesheet" href="./src/components/home/home.css" />
+    <link rel="stylesheet" href="./src/components/about/about.css" />
+    <link rel="stylesheet" href="./src/components/skills/skills.css" />
+    <link rel="stylesheet" href="./src/components/services/services.css" />
+    <link rel="stylesheet" href="./src/components/qualification/qualification.css" />
+    <link rel="stylesheet" href="./src/components/work/work.css" />
+    <link rel="stylesheet" href="./src/components/contact/contact.css" />
+    <link rel="stylesheet" href="./src/components/footer/footer.css" />
+    <link rel="stylesheet" href="./src/components/scrollup/scrollup.css" />
+    <title>Syauqi Portofolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <a href="./index.html" class="nav__logo">Yuqi</a>
+        <div class="nav__menu">
+          <ul class="nav__list grid">
+            <li class="nav__item"><a href="#home" class="nav__link active-link"><i class="uil uil-estate nav__icon"></i> Home</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link"><i class="uil uil-user nav__icon"></i> About</a></li>
+            <li class="nav__item"><a href="#skills" class="nav__link"><i class="uil uil-file-alt nav__icon"></i> Skills</a></li>
+            <li class="nav__item"><a href="#certifications" class="nav__link"><i class="uil uil-award nav__icon"></i> Certifications</a></li>
+            <li class="nav__item"><a href="#portofolio" class="nav__link"><i class="uil uil-scenery nav__icon"></i> Projects</a></li>
+            <li class="nav__item"><a href="#contact" class="nav__link"><i class="uil uil-message nav__icon"></i> Contact</a></li>
+          </ul>
+          <i class="uil uil-times nav__close" aria-label="Close menu"></i>
+        </div>
+        <div class="nav__toggle" aria-label="Open menu">
+          <i class="uil uil-apps"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a href="https://www.instagram.com/syaauqi06.github.io/" class="home__social-icon" target="_blank" rel="noopener noreferrer"><i class="uil uil-instagram"></i></a>
+              <a href="https://www.youtube.com/@YuqiNation/" class="home__social-icon" target="_blank" rel="noopener noreferrer"><i class="uil uil-youtube"></i></a>
+              <a href="https://www.linkedin.com/in/muammar-syauqi-arrasya/" class="home__social-icon" target="_blank" rel="noopener noreferrer"><i class="uil uil-linkedin-alt"></i></a>
+              <a href="https://github.com/Syauqi06" class="home__social-icon" target="_blank" rel="noopener noreferrer"><i class="uil uil-github-alt"></i></a>
+            </div>
+
+            <div class="home__image"></div>
+
+            <div class="home__data">
+              <h1 class="home__title">Mu'ammar Syauqi Arrasya
+                <svg width="36" height="36" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="home__hand">
+                  <path d="M25.4995 32.0305L31.3495 33.1555L36.1495 8.48051C36.4495 6.83051 35.3995 5.18051 33.8245 4.88051C32.1745 4.58051 30.5995 5.70551 30.2995 7.35551L25.4995 32.0305Z" fill="#FFDD67"></path>
+                  <path d="M33.8996 4.88018C33.6746 4.80518 33.5246 4.80518 33.2996 4.80518C34.6496 5.33018 35.3996 6.75518 35.0996 8.25518L30.2996 32.9302L31.3496 33.1552L36.1496 8.48018C36.5246 6.75518 35.4746 5.18018 33.8996 4.88018Z" fill="#EBA352"></path>
+                  <path d="M19.4995 32.7802H26.5495V5.55518C26.5495 3.53018 24.9745 1.80518 23.0245 1.80518C21.1495 1.80518 19.4995 3.45518 19.4995 5.55518V32.7802Z" fill="#FFDD67"></path>
+                  <path d="M23.0995 1.80518C22.9495 1.80518 22.7245 1.80518 22.5745 1.88018C24.2995 2.18018 25.5745 3.68018 25.5745 5.55518V32.8552H26.6245V5.55518C26.6245 3.45518 25.0495 1.80518 23.0995 1.80518Z" fill="#EBA352"></path>
+                  <path d="M15.7495 32.7054L21.7495 31.1304L15.2245 6.30541C14.7745 4.58041 13.0495 3.53041 11.3995 3.90541C9.74948 4.35541 8.77448 6.08041 9.22448 7.80541L15.7495 32.7054Z" fill="#FFDD67"></path>
+                  <path d="M11.3995 3.90541L10.9495 4.13041C12.4495 4.05541 13.7995 5.03041 14.2495 6.60541L20.7745 31.4304L21.8245 31.1304L15.2245 6.30541C14.7745 4.58041 13.0495 3.53041 11.3995 3.90541Z" fill="#EBA352"></path>
+                  <path d="M2.99937 10.355C1.57437 11.03 1.12437 12.83 1.87437 14.33L11.7744 34.055L16.7994 31.505L6.89937 11.78C6.14937 10.28 4.42437 9.68 2.99937 10.355Z" fill="#FFDD67"></path>
+                  <path d="M2.99956 10.355C2.84956 10.43 2.69956 10.505 2.54956 10.655C3.82456 10.28 5.24956 10.955 5.92456 12.305L15.8246 32.03L16.7996 31.58L6.89956 11.78C6.14956 10.28 4.42456 9.68 2.99956 10.355Z" fill="#EBA352"></path>
+                  <path d="M46.2744 22.2801C45.0744 19.9551 41.3244 20.1051 37.4994 24.3051C34.7994 27.2301 34.2744 28.2051 31.5744 28.1301V25.0551C31.5744 25.0551 25.7995 20.7801 14.3244 22.7301C14.3244 22.7301 7.79945 23.6301 7.79945 27.0801C7.79945 27.0801 6.67445 35.4051 8.99945 40.6551C12.4494 48.4551 30.1494 50.4801 35.6994 37.2051C36.8244 34.5801 39.0744 32.6301 41.0994 30.1551C43.4244 27.1551 47.5494 24.7551 46.2744 22.2801Z" fill="#FFDD67"></path>
+                  <path d="M46.2745 22.28C46.0495 21.83 45.7495 21.53 45.3745 21.23C45.4495 21.305 45.5245 21.38 45.5245 21.53C46.7995 24.08 42.6745 26.405 40.1995 29.405C38.1745 31.88 35.9245 33.83 34.7995 36.455C29.9995 47.93 16.0495 47.93 10.1995 42.68C15.5245 48.68 30.5245 49.28 35.5495 37.205C36.6745 34.58 38.9245 32.63 40.9495 30.155C43.4245 27.155 47.5495 24.755 46.2745 22.28ZM32.3245 28.13C27.4495 26.33 18.7495 29.63 19.9495 38.405C19.9495 30.23 27.3745 28.205 31.4245 28.205C32.0245 28.13 32.3245 28.13 32.3245 28.13Z" fill="#EBA352"></path>
+                </svg>
+              </h1>
+              <h3 class="home__subtitle">Backend Developer</h3>
+              <p class="home__description">Building robust server-side applications with PHP, JavaScript, Laravel, and CodeIgniter, with experience creating interactive interfaces in React.</p>
+              <div class="home__actions">
+                <a href="#portofolio" class="button button--flex">View Projects <i class="uil uil-arrow-right button__icon"></i></a>
+                <a href="#contact" class="button button--flex">Contact Me
+                <svg class="button__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M14.2199 21.9352C13.0399 21.9352 11.3699 21.1052 10.0499 17.1352L9.32988 14.9752L7.16988 14.2552C3.20988 12.9352 2.37988 11.2652 2.37988 10.0852C2.37988 8.91525 3.20988 7.23525 7.16988 5.90525L15.6599 3.07525C17.7799 2.36525 19.5499 2.57525 20.6399 3.65525C21.7299 4.73525 21.9399 6.51525 21.2299 8.63525L18.3999 17.1252C17.0699 21.1052 15.3999 21.9352 14.2199 21.9352ZM7.63988 7.33525C4.85988 8.26525 3.86988 9.36525 3.86988 10.0852C3.86988 10.8052 4.85988 11.9052 7.63988 12.8252L10.1599 13.6652C10.3799 13.7352 10.5599 13.9152 10.6299 14.1352L11.4699 16.6552C12.3899 19.4352 13.4999 20.4252 14.2199 20.4252C14.9399 20.4252 16.0399 19.4352 16.9699 16.6552L19.7999 8.16525C20.3099 6.62525 20.2199 5.36525 19.5699 4.71525C18.9199 4.06525 17.6599 3.98525 16.1299 4.49525L7.63988 7.33525Z" fill="var(--container-color)"></path>
+                  <path d="M10.11 14.7052C9.92005 14.7052 9.73005 14.6352 9.58005 14.4852C9.29005 14.1952 9.29005 13.7152 9.58005 13.4252L13.16 9.83518C13.45 9.54518 13.93 9.54518 14.22 9.83518C14.51 10.1252 14.51 10.6052 14.22 10.8952L10.64 14.4852C10.5 14.6352 10.3 14.7052 10.11 14.7052Z" fill="var(--container-color)"></path>
+                </svg>
+              </a>
+              </div>
+            </div>
+          </div>
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <svg width="32px" height="32px" class="home__scroll-mouse" viewBox="0 0 247 390" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5">
+                <path class="wheel" d="M123.359,79.775l0,72.843" style="fill:none;stroke:var(--title-color);stroke-width:20px"></path>
+                <path id="mouse" d="M236.717,123.359c0,-62.565 -50.794,-113.359 -113.358,-113.359c-62.565,0 -113.359,50.794 -113.359,113.359l0,143.237c0,62.565 50.794,113.359 113.359,113.359c62.564,0 113.358,-50.794 113.358,-113.359l0,-143.237Z" style="fill:none;stroke:var(--title-color);stroke-width:20px"></path>
+              </svg>
+              <span class="home__scroll-name">Scroll Down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">My introduction</span>
+        <div class="about__container container grid">
+          <img src="./src/assets/about.jpg" alt="" class="about__img" />
+          <div class="about__data">
+            <div class="about__info grid">
+              <div class="about__box"><i class="bx bx-award about__icon"></i><h3 class="about__title">Focus</h3><span class="about__subtitle">Backend Development</span></div>
+              <div class="about__box"><i class="bx bx-code-alt about__icon"></i><h3 class="about__title">Languages</h3><span class="about__subtitle">PHP · JavaScript</span></div>
+              <div class="about__box"><i class="bx bx-layer about__icon"></i><h3 class="about__title">Frameworks</h3><span class="about__subtitle">Laravel · CodeIgniter</span></div>
+            </div>
+            <p class="about__description">I am a backend developer with expertise in PHP and JavaScript, using Laravel and CodeIgniter to build server-side applications. I also have experience with React for dynamic front-end components and work with MySQL in web solutions.</p>
+            <a download="Muammar Syauqi - Web Developer - CV.pdf" href="./src/assets/Muammar%20Syauqi%20-%20Web%20Developer%20-%20CV.pdf" class="button button--flex">Download CV
+              <svg class="button__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M15.25 22.7502H9.25C3.82 22.7502 1.5 20.4302 1.5 15.0002V9.00024C1.5 3.57024 3.82 1.25024 9.25 1.25024H14.25C14.66 1.25024 15 1.59024 15 2.00024C15 2.41024 14.66 2.75024 14.25 2.75024H9.25C4.64 2.75024 3 4.39024 3 9.00024V15.0002C3 19.6102 4.64 21.2502 9.25 21.2502H15.25C19.86 21.2502 21.5 19.6102 21.5 15.0002V10.0002C21.5 9.59024 21.84 9.25024 22.25 9.25024C22.66 9.25024 23 9.59024 23 10.0002V15.0002C23 20.4302 20.68 22.7502 15.25 22.7502Z" fill="var(--container-color)"></path>
+                <path d="M22.25 10.7502H18.25C14.83 10.7502 13.5 9.42023 13.5 6.00023V2.00023C13.5 1.70023 13.68 1.42023 13.96 1.31023C14.24 1.19023 14.56 1.26023 14.78 1.47023L22.78 9.47023C22.99 9.68023 23.06 10.0102 22.94 10.2902C22.82 10.5702 22.55 10.7502 22.25 10.7502ZM15 3.81023V6.00023C15 8.58023 15.67 9.25023 18.25 9.25023H20.44L15 3.81023Z" fill="var(--container-color)"></path>
+                <path d="M13.25 13.7502H7.25C6.84 13.7502 6.5 13.4102 6.5 13.0002C6.5 12.5902 6.84 12.2502 7.25 12.2502H13.25C13.66 12.2502 14 12.5902 14 13.0002C14 13.4102 13.66 13.7502 13.25 13.7502Z" fill="var(--container-color)"></path>
+                <path d="M11.25 17.7502H7.25C6.84 17.7502 6.5 17.4102 6.5 17.0002C6.5 16.5902 6.84 16.2502 7.25 16.2502H11.25C11.66 16.2502 12 16.5902 12 17.0002C12 17.4102 11.66 17.7502 11.25 17.7502Z" fill="var(--container-color)"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">Skills listed on LinkedIn and technologies used in public projects</span>
+        <div class="skills__container container grid">
+          <div class="skills__content">
+            <h3 class="skills__title">Languages &amp; Database</h3>
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data"><i class="bx bx-badge-check"></i><div><h3 class="skills__name">PHP</h3></div></div>
+                <div class="skills__data"><i class="bx bx-badge-check"></i><div><h3 class="skills__name">JavaScript</h3></div></div>
+              </div>
+              <div class="skills__group">
+                <div class="skills__data"><i class="bx bx-badge-check"></i><div><h3 class="skills__name">MySQL</h3></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="skills__content">
+            <h3 class="skills__title">Frameworks &amp; Software Engineering</h3>
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data"><i class="bx bx-badge-check"></i><div><h3 class="skills__name">Laravel</h3></div></div>
+                <div class="skills__data"><i class="bx bx-badge-check"></i><div><h3 class="skills__name">CodeIgniter</h3></div></div>
+              </div>
+              <div class="skills__group">
+                <div class="skills__data"><i class="bx bx-badge-check"></i><div><h3 class="skills__name">React.js</h3></div></div>
+                <div class="skills__data"><i class="bx bx-badge-check"></i><div><h3 class="skills__name">Software Engineering</h3></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services section" id="certifications">
+        <h2 class="section__title">Certifications</h2>
+        <span class="section__subtitle">Licenses &amp; certifications</span>
+        <div class="services__container container grid">
+          <div class="services__content">
+            <div><i class="bx bx-award services__icon" aria-hidden="true"></i><h3 class="services__title">Cloud Practitioner <br /> Essentials</h3></div>
+            <span class="services__button" data-modal-open="1">View Details<i class="uil uil-arrow-right services__button-icon"></i></span>
+            <div class="services__modal" data-modal="1"><div class="services__modal-content">
+              <i class="uil uil-times services__modal-close" data-modal-close aria-label="Close"></i>
+              <h3 class="services__modal-title">Cloud Practitioner Essentials</h3>
+              <p class="services__modal-description">Dicoding Academy · Issued Dec 2024 · Expires Sep 2027</p>
+              <ul class="services__modal-services grid">
+                <li class="services__modal-service"><i class="uil uil-check-circle services__modal-icon"></i><p class="services__modal-info">Credential ID: 81P2497N8ZOY</p></li>
+                <li class="services__modal-service"><i class="uil uil-check-circle services__modal-icon"></i><p class="services__modal-info">Skills: Amazon Web Services (AWS), Cloud Computing</p></li>
+              </ul>
+            </div></div>
+          </div>
+          <div class="services__content">
+            <div><i class="bx bx-award services__icon" aria-hidden="true"></i><h3 class="services__title">Oracle Academy</h3></div>
+            <span class="services__button" data-modal-open="2">View Details<i class="uil uil-arrow-right services__button-icon"></i></span>
+            <div class="services__modal" data-modal="2"><div class="services__modal-content">
+              <i class="uil uil-times services__modal-close" data-modal-close aria-label="Close"></i>
+              <h3 class="services__modal-title">Oracle Academy</h3>
+              <p class="services__modal-description">Oracle · Issued Oct 2022</p>
+              <ul class="services__modal-services grid">
+                <li class="services__modal-service"><i class="uil uil-check-circle services__modal-icon"></i><p class="services__modal-info">Skill: Java</p></li>
+              </ul>
+            </div></div>
+          </div>
+          <div class="services__content">
+            <div><i class="bx bx-award services__icon" aria-hidden="true"></i><h3 class="services__title">Developing Web-Based Application</h3></div>
+            <span class="services__button" data-modal-open="3">View Details<i class="uil uil-arrow-right services__button-icon"></i></span>
+            <div class="services__modal" data-modal="3"><div class="services__modal-content">
+              <i class="uil uil-times services__modal-close" data-modal-close aria-label="Close"></i>
+              <h3 class="services__modal-title">Developing Web-Based Application</h3>
+              <p class="services__modal-description">ID-Networkers (IDN.ID) · Issued Mar 2024</p>
+              <ul class="services__modal-services grid">
+                <li class="services__modal-service"><i class="uil uil-check-circle services__modal-icon"></i><p class="services__modal-info">Skills: Git, Algorithm Development</p></li>
+              </ul>
+            </div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="qualification section">
+        <h2 class="section__title">Education &amp; Experience</h2>
+        <span class="section__subtitle">Education and organization involvement</span>
+        <div class="qualification__container container">
+          <div class="qualification__tabs">
+            <div class="qualification__button qualification__active button--flex" data-qualification="1"><i class="uil uil-graduation-cap qualification__icon"></i>Education</div>
+            <div class="qualification__button button--flex" data-qualification="2"><i class="uil uil-briefcase-alt qualification__icon"></i> Experience &amp; Organizations</div>
+          </div>
+          <div class="qualification__sections">
+            <div class="qualification__content qualification__content-active" data-qualification-content="1">
+              <div class="qualification__data"><div><h3 class="qualification__title">Bachelor's Degree</h3><span class="qualification__subtitle">Computer Technology/Computer Systems Technology<br />Universitas Bina Sarana Informatika</span><div class="qualification__calendar"><i class="uil uil-calendar-alt"></i> Sep 2024 - Present</div></div><div><span class="qualification__rounder"></span><span class="qualification__line"></span></div></div>
+              <div class="qualification__data"><div></div><div><span class="qualification__rounder"></span></div><div><h3 class="qualification__title">SMKN 1 Bekasi</h3><span class="qualification__subtitle">Education</span><div class="qualification__calendar"><i class="uil uil-calendar-alt"></i> Jul 2021 - May 2024</div></div></div>
+            </div>
+            <div class="qualification__content" data-qualification-content="2">
+              <div class="qualification__data"><div><h3 class="qualification__title">Assistant</h3><span class="qualification__subtitle">Neracode · Programming community at SMKN 1 Bekasi; learning, practice, and collaborative coding activities.</span><div class="qualification__calendar"><i class="uil uil-calendar-alt"></i> Feb 2024 - Present</div></div><div><span class="qualification__rounder"></span><span class="qualification__line"></span></div></div>
+              <div class="qualification__data"><div></div><div><span class="qualification__rounder"></span></div><div><h3 class="qualification__title">Passive Member</h3><span class="qualification__subtitle">English Club · Student forum for learning English at SMKN 1 Bekasi</span><div class="qualification__calendar"><i class="uil uil-calendar-alt"></i> Jul 2021 - May 2023</div></div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="work section" id="portofolio">
+        <h2 class="section__title">Projects</h2>
+        <span class="section__subtitle">Featured projects from GitHub</span>
+        <div>
+          <div class="work__filters">
+            <span class="active-work work__item" data-work-filter="all">all</span>
+            <span class="work__item" data-work-filter="web">web</span>
+            <span class="work__item" data-work-filter="app">app</span>
+            <span class="work__item" data-work-filter="learning">learning</span>
+          </div>
+          <div class="work__container container grid">
+            <article class="work__card" data-category="web">
+              <div class="work__preview"><i class="bx bx-calendar-check" aria-hidden="true"></i><span>Illustrative thumbnail</span></div>
+              <h3 class="work__title">Penyewaan Elektronik</h3>
+              <p class="work__description">An electronics rental system with a public catalog, booking flow, renter dashboard, identity verification, item returns, late fees, and Midtrans payment handling.</p>
+              <ul class="work__technologies" aria-label="Technologies used"><li>PHP 8.1</li><li>Laravel 10</li><li>Socialite</li><li>Midtrans</li><li>Bootstrap 5</li></ul>
+              <a href="https://github.com/Syauqi06/penyewaan-elektronik" class="work__button" target="_blank" rel="noopener noreferrer">Source Code <i class="bx bx-right-arrow-alt work__button-icon"></i></a>
+            </article>
+            <article class="work__card" data-category="web">
+              <div class="work__preview"><i class="bx bx-clinic" aria-hidden="true"></i><span>Illustrative thumbnail</span></div>
+              <h3 class="work__title">MediCare</h3>
+              <p class="work__description">A clinic-management application with role-based workflows for patient registration, patient and doctor records, medical records, prescriptions, and medicine inventory.</p>
+              <ul class="work__technologies" aria-label="Technologies used"><li>PHP 8.1</li><li>Laravel 10</li><li>Blade</li><li>Bootstrap 5</li><li>DataTables</li></ul>
+              <a href="https://github.com/Syauqi06/MediCare" class="work__button" target="_blank" rel="noopener noreferrer">Source Code <i class="bx bx-right-arrow-alt work__button-icon"></i></a>
+            </article>
+            <article class="work__card" data-category="app">
+              <div class="work__preview"><i class="bx bx-message-rounded-dots" aria-hidden="true"></i><span>Illustrative thumbnail</span></div>
+              <h3 class="work__title">Lexora — IELTS Vocabulary Assistant</h3>
+              <p class="work__description">An IELTS vocabulary tutor with CEFR A1-C2 levels, English/Indonesian chat, conversation history, a vocabulary book, and progress views, powered by Gemini.</p>
+              <ul class="work__technologies" aria-label="Technologies used"><li>JavaScript</li><li>Node.js</li><li>Express 5</li><li>Google Gemini API</li></ul>
+              <a href="https://github.com/Syauqi06/chatbot-gemini-model" class="work__button" target="_blank" rel="noopener noreferrer">Source Code <i class="bx bx-right-arrow-alt work__button-icon"></i></a>
+            </article>
+            <article class="work__card" data-category="app">
+              <div class="work__preview"><i class="bx bx-map-alt" aria-hidden="true"></i><span>Illustrative thumbnail</span></div>
+              <h3 class="work__title">Gunung &amp; Bukit Jawa Barat</h3>
+              <p class="work__description">A Flutter web app for exploring West Java mountain and hill destinations, with destination details, favorites, and create, edit, and delete flows backed by MockAPI.</p>
+              <ul class="work__technologies" aria-label="Technologies used"><li>Dart</li><li>Flutter Web</li><li>Provider</li><li>HTTP</li><li>MockAPI</li></ul>
+              <a href="https://github.com/Syauqi06/gunung-bukit-jabar" class="work__button" target="_blank" rel="noopener noreferrer">Source Code <i class="bx bx-right-arrow-alt work__button-icon"></i></a>
+            </article>
+            <article class="work__card" data-category="web">
+              <div class="work__preview"><i class="bx bx-water" aria-hidden="true"></i><span>Illustrative thumbnail</span></div>
+              <h3 class="work__title">Saung Lobster Denay Farm</h3>
+              <p class="work__description">A farm profile site with general lobster-cultivation information, a photo gallery, and Google Maps directions. The source clearly marks operational details that have not been verified.</p>
+              <ul class="work__technologies" aria-label="Technologies used"><li>PHP</li><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Google Maps</li></ul>
+              <a href="https://github.com/Syauqi06/saung-lobster-denay" class="work__button" target="_blank" rel="noopener noreferrer">Source Code <i class="bx bx-right-arrow-alt work__button-icon"></i></a>
+            </article>
+            <article class="work__card" data-category="learning">
+              <div class="work__preview"><i class="bx bx-bar-chart-alt-2" aria-hidden="true"></i><span>Illustrative thumbnail</span></div>
+              <h3 class="work__title">Program Nilai Mahasiswa</h3>
+              <p class="work__description">An interactive Python console program for validating student scores, assigning grades and pass status, calculating class statistics, and demonstrating custom exception handling.</p>
+              <ul class="work__technologies" aria-label="Technologies used"><li>Python</li><li>CLI</li><li>Custom exceptions</li></ul>
+              <a href="https://github.com/Syauqi06/program_nilai_mahasiswa" class="work__button" target="_blank" rel="noopener noreferrer">Source Code <i class="bx bx-right-arrow-alt work__button-icon"></i></a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Get in touch</h2>
+        <span class="section__subtitle">Contact Me</span>
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h3 class="contact__title">Talk to me</h3>
+            <div class="contact__info">
+              <div class="contact__card"><i class="bx bx-mail-send contact__card-icon"></i><h3 class="contact__card-title">Email</h3><a href="mailto:syauqi0066@gmail.com" class="contact__card-data">syauqi0066@gmail.com</a><a href="mailto:syauqi0066@gmail.com" class="contact__button">Write me <i class="bx bx-right-arrow-alt contact__button-icon"></i></a></div>
+              <div class="contact__card"><i class="bx bxl-whatsapp contact__card-icon"></i><h3 class="contact__card-title">WhatsApp</h3><a href="https://wa.me/6285282752505?text=Hello%2C%20more%20information%21" class="contact__card-data" target="_blank" rel="noopener noreferrer">0852-8275-2505</a><a href="https://wa.me/6285282752505?text=Hello%2C%20more%20information%21" class="contact__button" target="_blank" rel="noopener noreferrer">Write me <i class="bx bx-right-arrow-alt contact__button-icon"></i></a></div>
+              <div class="contact__card"><i class="bx bxl-linkedin-square contact__card-icon"></i><h3 class="contact__card-title">LinkedIn</h3><a href="https://www.linkedin.com/in/muammar-syauqi-arrasya/" class="contact__card-data" target="_blank" rel="noopener noreferrer">Mu'ammar Syauqi Arrasya</a><a href="https://www.linkedin.com/in/muammar-syauqi-arrasya/" class="contact__button" target="_blank" rel="noopener noreferrer">View profile <i class="bx bx-right-arrow-alt contact__button-icon"></i></a></div>
+              <div class="contact__card"><i class="bx bxl-github contact__card-icon"></i><h3 class="contact__card-title">GitHub</h3><a href="https://github.com/Syauqi06" class="contact__card-data" target="_blank" rel="noopener noreferrer">github.com/Syauqi06</a><a href="https://github.com/Syauqi06" class="contact__button" target="_blank" rel="noopener noreferrer">View profile <i class="bx bx-right-arrow-alt contact__button-icon"></i></a></div>
+            </div>
+          </div>
+          <div class="contact__content">
+            <h3 class="contact__title">Write me your project</h3>
+            <form class="contact__form">
+              <div class="contact__form-div"><label class="contact__form-tag" for="contact-name">Name</label><input id="contact-name" type="text" name="name" class="contact__form-input" placeholder="Insert your name" /></div>
+              <div class="contact__form-div"><label class="contact__form-tag" for="contact-email">Mail</label><input id="contact-email" type="email" name="email" class="contact__form-input" placeholder="Insert your email" /></div>
+              <div class="contact__form-div contact__form-area"><label class="contact__form-tag" for="contact-project">Project</label><textarea id="contact-project" name="project" cols="30" rows="10" class="contact__form-input" placeholder="Write your project"></textarea></div>
+              <button class="button button--flex" type="submit">Send Message
+                <svg class="button__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M14.2199 21.9352C13.0399 21.9352 11.3699 21.1052 10.0499 17.1352L9.32988 14.9752L7.16988 14.2552C3.20988 12.9352 2.37988 11.2652 2.37988 10.0852C2.37988 8.91525 3.20988 7.23525 7.16988 5.90525L15.6599 3.07525C17.7799 2.36525 19.5499 2.57525 20.6399 3.65525C21.7299 4.73525 21.9399 6.51525 21.2299 8.63525L18.3999 17.1252C17.0699 21.1052 15.3999 21.9352 14.2199 21.9352ZM7.63988 7.33525C4.85988 8.26525 3.86988 9.36525 3.86988 10.0852C3.86988 10.8052 4.85988 11.9052 7.63988 12.8252L10.1599 13.6652C10.3799 13.7352 10.5599 13.9152 10.6299 14.1352L11.4699 16.6552C12.3899 19.4352 13.4999 20.4252 14.2199 20.4252C14.9399 20.4252 16.0399 19.4352 16.9699 16.6552L19.7999 8.16525C20.3099 6.62525 20.2199 5.36525 19.5699 4.71525C18.9199 4.06525 17.6599 3.98525 16.1299 4.49525L7.63988 7.33525Z" fill="var(--container-color)"></path>
+                  <path d="M10.11 14.7052C9.92005 14.7052 9.73005 14.6352 9.58005 14.4852C9.29005 14.1952 9.29005 13.7152 9.58005 13.4252L13.16 9.83518C13.45 9.54518 13.93 9.54518 14.22 9.83518C14.51 10.1252 14.51 10.6052 14.22 10.8952L10.64 14.4852C10.5 14.6352 10.3 14.7052 10.11 14.7052Z" fill="var(--container-color)"></path>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title">Syauqi</h1>
+        <ul class="footer__list">
+          <li><a href="#about" class="footer__link">About</a></li>
+          <li><a href="#portofolio" class="footer__link">Projects</a></li>
+          <li><a href="#certifications" class="footer__link">Certifications</a></li>
+        </ul>
+        <div class="footer__social">
+          <a href="https://www.facebook.com/" class="footer__social-link" target="_blank" rel="noopener noreferrer"><i class="bx bxl-facebook"></i></a>
+          <a href="https://github.com/Syauqi06" class="footer__social-link" target="_blank" rel="noopener noreferrer"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/muammar-syauqi-arrasya/" class="footer__social-link" target="_blank" rel="noopener noreferrer"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://www.instagram.com/syaauqi06.github.io/" class="footer__social-link" target="_blank" rel="noopener noreferrer"><i class="bx bxl-instagram"></i></a>
+          <a href="https://twitter.com/" class="footer__social-link" target="_blank" rel="noopener noreferrer"><i class="bx bxl-twitter"></i></a>
+        </div>
+        <span class="footer__copy">&#169; Mu'ammar Syauqi Arrasya</span>
+      </div>
+    </footer>
+    <a href="#" class="scrollup"><i class="uil uil-arrow-up scrollup__icon"></i></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
